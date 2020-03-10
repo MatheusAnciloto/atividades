@@ -11,6 +11,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 from app.models.tables import Usuario
 from app.models.tables import Atividade
 
+from app.controllers import atividades
 
 @app.route('/home')
 def home():
